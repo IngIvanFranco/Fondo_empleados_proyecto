@@ -1,0 +1,33 @@
+.imgbanner{
+  width: 100%;
+  height: auto;
+
+
+}
+
+.conbaner{
+position: absolute;
+margin-top: -100px;
+z-index: -1;
+
+}
+
+.logban{
+  width: 40%;
+  max-width: 600px;
+
+  z-index: 2;
+  position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+margin: auto;
+
+
+
+}
+
+.slide{
+  position: relative;
+}

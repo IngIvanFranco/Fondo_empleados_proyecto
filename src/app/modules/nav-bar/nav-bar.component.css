@@ -1,0 +1,16 @@
+.menu{
+display: flex;
+margin: auto 40px;
+}
+
+.menu li{
+  margin-right: 40px;
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+
