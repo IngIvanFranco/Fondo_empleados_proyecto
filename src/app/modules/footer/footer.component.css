@@ -1,0 +1,17 @@
+footer{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 95%;
+  margin: auto;
+}
+.col{
+  width: 90%;
+  max-width: 300px;
+  margin:  20px auto;
+
+}
+
+
+

@@ -1,0 +1,44 @@
+
+<button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+  Otros Creditos >>>
+</button>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Creditos Femseapto</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+     Estamos siempre de tu lado, por eso te traemos estas opciones:
+    </div>
+    <div class="dropdown mt-3" *ngFor="let cs of creditos">
+      <li> <a (click)="click(cs.ide_tipo_credito)" data-bs-dismiss="offcanvas">{{cs.nombre}}</a></li>
+    </div>
+  </div>
+</div>
+
+
+<div class="contcard" *ngFor="let c of credito">
+<h1 class="titucredi"> Créditos Femseapto </h1>
+
+<div class="card mb-3">
+  <img src="{{path}}/img/creditos/{{id}}.jpg" class="img-fluid rounded-start" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{c.nombre}}</h5>
+    <ul>
+      <li>Interes: {{c.interes}} %</li>
+      <li>Maximo de cuotas quincenales: {{c.num_cuota_max}}</li>
+      <li *ngIf="c.monto_max != null">Monto maximo: $ {{c.monto_max | number}}</li>
+    </ul>
+    <p class="card-text"><small class="text-muted ">{{c.descripcion}}</small></p>
+  </div>
+  <div class="contbtn">
+    <a href="https://femseapto.com.co/creditos/" class="btn btn-success">Solicitar ahora</a>
+
+  </div>
+</div>
+
+
+</div>
+

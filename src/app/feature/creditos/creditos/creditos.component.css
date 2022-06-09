@@ -1,0 +1,41 @@
+@font-face {
+  font-family: brees;
+  src: url('../../../../assets/fonts/Bree_Serif/BreeSerif-Regular.ttf');
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #006339 ;
+  font-family: brees;
+}
+
+.titucredi{
+  text-align: center;
+  margin: 25px auto;
+  text-transform: uppercase;
+}
+
+.contcard{
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.card{
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+.card img{
+  width: 100%;
+}
+
+.contbtn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+margin: 25px auto;
+}
+
+.btn{
+  margin: 15px;
+}

@@ -14,9 +14,9 @@ Exportamos el endPoint de la APIREST de Firebase
 export let Api = {
 
 
- //url: 'http://localhost/apimarket_angular-php/'
+ url: 'http://localhost/bakend_femseapto/'
   //url: 'https://54.174.81.71/api/'
- url: 'https://invercomes.com.co/apimarket_angular-php/'
+// url: 'https://invercomes.com.co/apimarket_angular-php/'
 }
 
 export let ApiMail = {
