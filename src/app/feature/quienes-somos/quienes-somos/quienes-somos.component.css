@@ -1,0 +1,45 @@
+.conttitu{
+  text-align: center;
+  margin: 25px auto;
+}
+
+
+p{
+  color: rgb(82, 82, 82);
+  text-align: justify;
+}
+
+.conttitu p{
+ text-align: center;
+}
+
+.contmv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  margin: 25px auto;
+}
+
+
+.cardmv{
+width: 90%;
+max-width: 500px;
+padding: 10px;
+margin: 25px;
+}
+
+.cardmv h2{
+  text-align: center;
+}
+
+
+.convalor strong{
+  color: #006339;
+}
+
+.convalor li{
+  list-style:circle;
+}
+

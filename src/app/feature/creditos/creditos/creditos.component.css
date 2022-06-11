@@ -39,3 +39,15 @@ margin: 25px auto;
 .btn{
   margin: 15px;
 }
+
+.dropdown li{
+  list-style: none;
+  border-bottom:1px solid #FDD11B;
+  padding: 5px;
+}
+
+.dropdown a{
+  cursor: pointer;
+  color: #006339;
+  text-transform: capitalize;
+}
