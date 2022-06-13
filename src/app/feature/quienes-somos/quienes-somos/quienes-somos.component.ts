@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Loading } from 'notiflix';
 
 @Component({
   selector: 'app-quienes-somos',
@@ -10,6 +11,8 @@ export class QuienesSomosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    Loading.standard()
+    Loading.remove()
   }
 
 }

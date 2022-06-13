@@ -1,1 +1,13 @@
-<p>list-convenio works!</p>
+<h1>lista de convenios</h1>
+
+
+
+<div class="contcard" >
+  <div class="card" *ngFor="let convenio of convenios" >
+    <img src="{{path}}/img/convenios/{{convenio.id_convenio}}.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{convenio.nombre_convenio}}</h5>
+
+    </div>
+  </div>
+</div>

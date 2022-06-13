@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Path } from '../../../config';
+import { Loading } from 'notiflix';
 
 @Component({
   selector: 'app-index',
@@ -11,6 +12,8 @@ export class IndexComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    Loading.standard()
+    Loading.remove()
   }
 
 }

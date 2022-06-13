@@ -43,3 +43,10 @@ margin: 25px;
   list-style:circle;
 }
 
+.contobjetivos{
+  margin: 25px auto;
+}
+
+.contobjetivos li{
+list-style: circle;
+}

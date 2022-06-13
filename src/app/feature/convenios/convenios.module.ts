@@ -5,6 +5,8 @@ import { ConveniosRoutingModule } from './convenios-routing.module';
 import { HomeConvenioComponent } from './home-convenio/home-convenio.component';
 import { ListConvenioComponent } from './list-convenio/list-convenio.component';
 import { ViewConvenioComponent } from './view-convenio/view-convenio.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ConveniosService } from './shared/convenios.service';
 
 
 @NgModule({
@@ -15,7 +17,10 @@ import { ViewConvenioComponent } from './view-convenio/view-convenio.component';
   ],
   imports: [
     CommonModule,
-    ConveniosRoutingModule
-  ]
+    ConveniosRoutingModule,
+    HttpClientModule
+  ],
+
+  providers: [ ConveniosService]
 })
 export class ConveniosModule { }
