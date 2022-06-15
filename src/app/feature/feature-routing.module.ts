@@ -6,7 +6,8 @@ const routes: Routes = [
   {path:'Home', loadChildren: () => import('./index/index.module').then(i => i.IndexModule) },
   {path:'Convenios',component:HomeConvenioComponent, loadChildren: () => import('./convenios/convenios.module').then(i => i.ConveniosModule) },
   {path:'Creditos', loadChildren: ()=>import('./creditos/creditos.module').then(i => i.CreditosModule)},
-  {path:'Quienes-somos', loadChildren: ()=> import('./quienes-somos/quienes-somos.module').then(i => i.QuienesSomosModule)}
+  {path:'Quienes-somos', loadChildren: ()=> import('./quienes-somos/quienes-somos.module').then(i => i.QuienesSomosModule)},
+  {path:'Servicios', loadChildren: ()=> import('../feature/servicios/servicios.module').then(i => i.ServiciosModule)}
 
 ];
 

@@ -66,6 +66,7 @@ traerdatos(){
 
 
   click(id:any){
+    Loading.standard()
     this.id = id
     this.traerdatos()
 

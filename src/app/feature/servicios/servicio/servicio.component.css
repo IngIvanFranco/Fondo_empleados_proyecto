@@ -1,0 +1,48 @@
+
+.titucredi{
+    text-align: center;
+    margin: 25px auto;
+    text-transform: uppercase;
+  }
+  
+  .contcard{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .card{
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+  }
+  .card img{
+    width: 100%;
+   
+  
+  }
+  
+  .contbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  margin: 25px auto;
+  }
+  
+  .btn{
+    margin: 15px;
+  }
+  
+  .dropdown li{
+    list-style: none;
+    border-bottom:1px solid #FDD11B;
+    padding: 5px;
+  }
+  
+  .dropdown a{
+    cursor: pointer;
+    color: #006339;
+    text-transform: capitalize;
+  }
+  

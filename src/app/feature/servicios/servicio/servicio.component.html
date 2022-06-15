@@ -1,0 +1,41 @@
+
+<button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+    Otros Ahorros >>>
+  </button>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Ahorros Femseapto</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+     Sabemos que quieres cumplir tus sueños, por eso estamos para ti y te brindamos estas opciones:
+      </div>
+      <div class="dropdown mt-3" *ngFor="let ah of ahorros">
+        <li> <a (click)="click(ah.id_ahorro)" data-bs-dismiss="offcanvas">{{ah.nombre_ahorro}}</a></li>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="contcard" *ngFor="let a of ahorro">
+  <h1 class="titucredi"> Ahorro Voluntario </h1>
+  
+  <div class="card mb-3">
+    <img src="{{path}}/img/ahorros/{{id}}.jpg" class="img-fluid rounded-start" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{a.nombre_ahorro}}</h5>
+     
+      <p class="card-text"><small class="text-muted ">{{a.descripcion_ahorro}}</small></p>
+    </div>
+    <div class="contbtn">
+      <a href="https://femseapto.com.co/creditos/" class="btn btn-success">Modificar</a>
+  
+    </div>
+  </div>
+  
+  
+  </div>
+  
+  
