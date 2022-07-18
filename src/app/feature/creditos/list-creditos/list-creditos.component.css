@@ -1,0 +1,87 @@
+@font-face {
+    font-family: brees;
+    src: url('../../../../assets/fonts/Bree_Serif/BreeSerif-Regular.ttf');
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    color: #006339 ;
+    font-family: brees;
+  }
+  
+  .card1{
+    width: 45%;
+    padding: 10px;
+  
+  }
+  
+  .card1 img{
+    width: 100%;
+  }
+  
+  .card1 p{
+    margin: 25px auto;
+    color: #ccc;
+    font-size: 25px;
+  }
+  
+  .card1 strong{
+    color:#006339
+  }
+  
+  .card{
+    margin: 20px;
+    transition: all 0.5s;
+  }
+  .card:hover{
+    box-shadow: 3px 3px 6px #006339;
+  }
+  
+  .titusection{
+  text-align: center;
+  margin: 50px auto;
+  text-transform: uppercase;
+  }
+  
+  
+  .imgbanner{
+    width: 100%;
+  }
+  
+  
+  .contencard, .contbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 25px auto;
+  
+  }
+  
+  .btn{
+    margin-bottom: 10px;
+  }
+  
+  .btn:hover{
+    background: #FECC00;
+    border: none;
+  }
+  
+  
+  
+  .servicio-credito{
+  
+    padding-top: 50px;
+  
+  
+  }
+  
+  
+  .servicio-credito img{
+    cursor: pointer;
+  }
+  @media (max-width:990px) {
+    .card1{
+      width: 90%;
+      margin: auto;
+    }
+  }

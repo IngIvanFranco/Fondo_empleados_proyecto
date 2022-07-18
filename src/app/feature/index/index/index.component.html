@@ -1,142 +1,68 @@
 <section class="banner">
   <div class="conbaner">
-    <img src="{{path}}/img/bgindex.png" class="imgbanner">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{{path}}/img/slider/sl1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{{path}}/img/slider/sl3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{{path}}/img/slider/sl2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </div>
 </section>
 <section class="servicios-ahorro">
-  <h1 class="titusection">Servicios de ahorro</h1>
-
+  <h1 class="titusection">Servicios de Ahorro</h1>
   <div class="contencard">
-    <div class="card" style="width: 18rem;">
-     <a routerLink="/Servicios/1"> <img src="{{path}}/img/ahorros/1.jpg" class="card-img-top" alt="..."></a>
-      <div class="card-body">
-        <h5 class="card-title">Ahorro Extraordinario</h5>
-        <p class="card-text">Ahorra y prográmate libremente para que cumplas tus sueños.</p>
-      </div>
+    <div class="card1">
+      <img src="{{path}}/img/ahorros/banner.jpg" alt="">
+      <p> <strong>¡Es momento de tomar una buena decisión!</strong> <br> Conoce todos los servicios de ahorro que tenemos para ti </p>
+      <a routerLink="/Servicios/list" class="btn btn-success">Ver más</a>
     </div>
-
-    <div class="card" style="width: 18rem;">
-      <a routerLink="/Servicios/2">  <img src="{{path}}/img/ahorros/2.jpg" class="card-img-top" alt="..."></a>
-      <div class="card-body">
-        <h5 class="card-title">Ahorro Navideño</h5>
-        <p class="card-text">Prográmate para diciembre y así podrás realizar tus compras en diciembre.</p>
-      </div>
-    </div>
-
-
-    <div class="card" style="width: 18rem;">
-      <a routerLink="/Servicios/3"> <img src="{{path}}/img/ahorros/3.jpg" class="card-img-top" alt="..."></a>
-      <div class="card-body">
-        <h5 class="card-title">Ahorro Vacacional</h5>
-        <p class="card-text">Empieza tu ahorro y  prográmate para tus vacaciones.</p>
-      </div>
-    </div>
-
-
-    <div class="card" style="width: 18rem;">
-      <a routerLink="/Servicios/4"> <img src="{{path}}/img/ahorros/4.jpg" class="card-img-top" alt="..."> </a>
-      <div class="card-body">
-        <h5 class="card-title">Ahorro De vivienda</h5>
-        <p class="card-text">Empieza tu ahorro y solicítalo cuando vayas a comprar vivienda o hacer mejoras a la que ya tienes.</p>
-      </div>
+    <div class="card1" >
+      <img src="{{path}}/img/ahorros/banner2.jpg" alt="">
+   
     </div>
 
   </div>
-  <div class="contbtn">
-    <a href="{{path}}/document/FEMSEAPTO_solicitud_de_ahorro.pdf" class="btn btn-success">DESCARGAR FORMULARIO DE SOLICITUD DE AHORRO</a>
-    <a href="{{path}}/document/FEMSEAPTO_solicitud_de_ahorro.pdf" class="btn btn-success">DILIGENCIAR FORMULARIO DE PRE-SOLICITUD DE AHORRO (En Línea)</a>
-  </div>
+
 </section>
 
 <section class="servicio-credito">
   <h1 class="titusection">Servicios de credito</h1>
-  <div class="contencard">
-  <div class="card" style="width: 18rem;">
-   <a routerLink="/Creditos/5"> <img src="{{path}}/img/creditos/5.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Credito Educativo</h5>
-    </div>
+  <div class="separate"></div> 
+  <div class="parent">
+    <div class="div1">   <img src="{{path}}/img/creditos/13.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CREDIFACIL</strong> <a routerLink="/Creditos/credito/13"  class="btn btn-info">Ver más</a></div></div>
+    <div class="div2">   <img src="{{path}}/img/creditos/5.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CRÉDITO EDUCATIVO</strong> <a routerLink="/Creditos/credito/5"  class="btn btn-info">Ver más</a></div> </div>
+    <div class="div3">    <img src="{{path}}/img/creditos/4.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CRÉDITO DE VIVIENDA</strong> <a routerLink="/Creditos/credito/4"  class="btn btn-info">Ver más</a></div> </div>
+    <div class="div4">   <img src="{{path}}/img/creditos/2.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CRÉDITO DE CONSUMO</strong> <a routerLink="/Creditos/credito/2"  class="btn btn-info">Ver más</a></div> </div>
+    <div class="div5">   <img src="{{path}}/img/creditos/6.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CRÉDITO DE EXTRAORDINARIO</strong> <a routerLink="/Creditos/credito/6"  class="btn btn-info">Ver más</a></div> </div>
+    <div class="div6">    <img src="{{path}}/img/creditos/7.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CRÉDITO DE  LIBRE INVERSIÓN</strong> <a routerLink="/Creditos/credito/7"  class="btn btn-info">Ver más</a></div> </div>
+    <div class="div7">    <img src="{{path}}/img/creditos/9.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CRÉDITO PARA VEHÍCULOS</strong> <a routerLink="/Creditos/credito/9"  class="btn btn-info">Ver más</a></div> </div>
+    <div class="div8">  <img src="{{path}}/img/creditos/1.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CRÉDITO CALAMIDAD</strong> <a routerLink="/Creditos/credito/1"  class="btn btn-info">Ver más</a></div> </div>
+    <div class="div9">  <img src="{{path}}/img/creditos/3.jpg" class="card-img-top" alt="..."> <div class="tex"><strong>CRÉDITO CREDIAGIL</strong> <a routerLink="/Creditos/credito/3"  class="btn btn-info">Ver más</a></div> </div>
+    
   </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/4"> <img src="{{path}}/img/creditos/4.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Credito De Mejora De Vivienda</h5>
-    </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/2">  <img src="{{path}}/img/creditos/2.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Credito De Consumo</h5>
-  </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/6"><img src="{{path}}/img/creditos/6.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Credito Extraordinario</h5>
-  </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/7">  <img src="{{path}}/img/creditos/7.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Credito Libre Inversion</h5>
-  </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/9"> <img src="{{path}}/img/creditos/9.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-      <h5 class="card-title">Credito Para Vehiculos</h5>
-  </div>
-  </div>
-
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/1"> <img src="{{path}}/img/creditos/1.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Credito Calamidad</h5>
-  </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/11"> <img src="{{path}}/img/creditos/11.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Credito Vacacional</h5>
-  </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/8">  <img src="{{path}}/img/creditos/8.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Credito Microempresa</h5>
-  </div>
-  </div>
-
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/12"> <img src="{{path}}/img/creditos/12.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Linea De Credito Ordinario</h5>
-  </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/13">   <img src="{{path}}/img/creditos/13.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Linea De Credito Credifacil</h5>
-  </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <a routerLink="/Creditos/14">  <img src="{{path}}/img/creditos/14.jpg" class="card-img-top" alt="..."></a>
-    <div class="card-body">
-    <h5 class="card-title">Linea De Credito Crediagil</h5>
-  </div>
-  </div>
-
+  <div class="separate"></div> 
+  <div class="contenbtn">
+  <a routerLink="/Creditos/List" class="btn btn-success ">Ver todos </a>
 </div>
 </section>
 

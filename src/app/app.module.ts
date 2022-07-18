@@ -7,11 +7,13 @@ import { NavBarComponent } from './modules/nav-bar/nav-bar.component';
 import { FooterComponent } from './modules/footer/footer.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
   imports: [
     BrowserModule,

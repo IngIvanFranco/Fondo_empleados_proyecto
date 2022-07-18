@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CreditosComponent } from './creditos/creditos.component';
+import { ListCreditosComponent } from './list-creditos/list-creditos.component';
 
 const routes: Routes = [
-  {path:':id', component:CreditosComponent},
-  {path:'', redirectTo: '/Home', pathMatch: 'full'},
+  {path:'credito/:id', component:CreditosComponent},
+  {path:'List', component:ListCreditosComponent},
+  {path:'**', redirectTo:'/Creditos/List'}
 ];
 
 @NgModule({
