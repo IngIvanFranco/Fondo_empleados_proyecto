@@ -3,8 +3,8 @@ Exportamos la ruta para tomar imágenes
 =============================================*/
 export let Path = {
 
-	url: 'http://localhost:4200/assets/'
- // url: 'http://54.174.81.71/assets/'
+//	url: 'http://localhost:4200/assets/'
+ url: 'http://54.174.81.71/femseapto/assets/'
 	//url: 'https://invercomes.com.co/assets/'
 }
 
@@ -14,8 +14,8 @@ Exportamos el endPoint de la APIREST de Firebase
 export let Api = {
 
 
- url: 'http://localhost/bakend_femseapto/'
-  //url: 'https://54.174.81.71/api/'
+ //url: 'http://localhost/bakend_femseapto/'
+  url: 'http://54.174.81.71/femseapto/bkend/'
 // url: 'https://invercomes.com.co/apimarket_angular-php/'
 }
 
